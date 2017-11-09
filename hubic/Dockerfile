@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTAINER Emmanuel Gautier <docker@emmanuelgautier.fr>
+LABEL MAINTAINER Emmanuel Gautier <docker@emmanuelgautier.fr>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
