@@ -25,11 +25,10 @@ COPY . .
 CMD [ "yarn", "build" ]
 
 ## Production environement target
-FROM nginx:alpine as production-env
+FROM nginx as production-env
 
 LABEL MAINTAINER Emmanuel Gautier <docker@emmanuelgautier.fr>
 
 COPY --from=build-env /usr/src/app/build /usr/share/nginx/html
 
-EXPOSE 80
-EXPOSE 443
+EXPOSE 443 80
