@@ -29,6 +29,6 @@ FROM nginx as production-env
 
 LABEL MAINTAINER Emmanuel Gautier <docker@emmanuelgautier.fr>
 
-COPY --from=build-env /usr/src/app/build /usr/share/nginx/html
+COPY --from=1 /usr/src/app/build /usr/share/nginx/html
 
 EXPOSE 443 80
