@@ -22,13 +22,13 @@ RUN yarn install --production
 
 COPY . .
 
-CMD [ "yarn", "build" ]
+RUN yarn build
 
 ## Production environement target
 FROM nginx as production-env
 
 LABEL MAINTAINER Emmanuel Gautier <docker@emmanuelgautier.fr>
 
-COPY --from=1 /usr/src/app/build /usr/share/nginx/html
+COPY --from=build-env /usr/src/app/build /usr/share/nginx/html
 
 EXPOSE 443 80
