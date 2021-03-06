@@ -12,6 +12,7 @@ Here the list of docker images available :
 * [Node Centos Docker Image](https://hub.docker.com/r/emmanuelgautier/node)
 * [PM2 Centos Docker Image](https://hub.docker.com/r/emmanuelgautier/pm2)
 * [Wordpress Docker Image](https://hub.docker.com/r/emmanuelgautier/wordpress-base)
+* [Firebase Docker Image](https://hub.docker.com/r/emmanuelgautier/firebase)
 
 ## Maintainers
 
