@@ -5,11 +5,13 @@ This repository contains some dockerfiles for images for different kinds of purp
 ## Docker Images
 
 Here the list of docker images available :
-* [Caddy Docker image](https://github.com/emmanuelgautier/dockerfiles/tree/master/caddy)
-* [Hubic Docker image](https://github.com/emmanuelgautier/dockerfiles/tree/master/hubic)
-* [Hubic Backup Docker image](https://github.com/emmanuelgautier/dockerfiles/tree/master/hubic-backup)
-* [Hubic Backup Downloader Docker image](https://github.com/emmanuelgautier/dockerfiles/tree/master/hubic-backup-downloader)
-* [Node Centos Docker images](https://github.com/emmanuelgautier/dockerfiles/tree/master/node)
+* [Caddy Docker Image](https://hub.docker.com/r/emmanuelgautier/caddy)
+* [Hubic Docker Image](https://hub.docker.com/r/emmanuelgautier/hubic)
+* [Hubic Backup Docker Image](https://hub.docker.com/r/emmanuelgautier/hubic-backup)
+* [Hubic Backup Downloader Docker Image](https://hub.docker.com/r/emmanuelgautier/hubic-backup-downloader)
+* [Node Centos Docker Image](https://hub.docker.com/r/emmanuelgautier/node)
+* [PM2 Centos Docker Image](https://hub.docker.com/r/emmanuelgautier/pm2)
+* [Wordpress Docker Image](https://hub.docker.com/r/emmanuelgautier/wordpress-base)
 
 ## Maintainers
 
